@@ -109,6 +109,8 @@ pfQuest_defconfig = {
     default = "0", type = "checkbox", config = "showhighlevel" },
   { text = L["Display Event & Daily Quests"],
     default = "0", type = "checkbox", config = "showfestival" },
+  { text = L["Display PvP Quests"],
+    default = "0", type = "checkbox", config = "showpvp" },
 
   { text = L["Map & Minimap"],
     default = nil, type = "header" },
